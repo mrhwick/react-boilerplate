@@ -31,6 +31,7 @@ module.exports = {
     message: 'Do you want i18n messages (i.e. will this component use text)?',
   }],
   actions: (data) => {
+    "use strict";
     // Generate index.js and index.test.js
     let componentTemplate;
 
